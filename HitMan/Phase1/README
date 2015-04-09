@@ -1,0 +1,12 @@
+Please refer hitman_phase_report.pdf to get know more information about other files
+
+phase1_mapper.py, phase_reducer.py  Mapper and reducer program used for preprocessing the json files.
+
+phase1_sql.sql  sql statements used to load csv files generated in the preprocessing 
+
+phase1_CSV2HFiles.java  program used to convert csv files to hfiles in order to load data into HBase
+
+Q1.java, Q2Hbase.java, Q2MySQL.java  front end program to handle requests
+
+
+

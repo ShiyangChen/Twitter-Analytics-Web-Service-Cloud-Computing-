@@ -1,0 +1,13 @@
+
+DROP TABLE IF EXISTS `q6tweets`;
+
+CREATE TABLE q6tweets (
+userid BIGINT NOT NULL PRIMARY KEY,
+sumpics INT)
+
+LOAD DATA INFILE 'allinone_accumulate' INTO TABLE `q6tweets`
+CHARACTER SET UTF8
+FIELDS TERMINATED BY '\t'  LINES TERMINATED BY '\n';
+
+
+CREATE INDEX useridIndex ON q6tweets (userid);

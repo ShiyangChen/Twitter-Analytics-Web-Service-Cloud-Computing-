@@ -1,0 +1,12 @@
+Phase 3 submission for team HitMan in course 15619 in 14 Fall semester.
+Members : Zuoyou Gu(zuoyoug) , Jiaqi Luo(jiaqiluo) , Cambi Tao Guo (taog)
+
+The code for the frontend is included in the Frontend\ folder. For Q2-4, we have separate frontend code for MySQL and HBase respectively. For Q5 and Q6, we have code for MySQL only.
+
+The code for the backend is included in the Backend\ folder. We provide java code that load data into Hfiles as well as sql script to load data into MySQL database
+
+The code for the ETL job is included in the ETL\ folder. We provide mapper and reducer for Q2-6 separately. Additionally, there is an organizer for Q6 which is discussed in the report.
+
+Please refer HitMan_Phase 3 Checkpoint report.pdf to get the report and more information about this submission
+
+

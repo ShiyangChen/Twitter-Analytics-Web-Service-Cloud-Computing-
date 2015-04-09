@@ -1,0 +1,12 @@
+Please refer hitman_phase_report.pdf to get know more information about other files
+
+ETL file:  Mapper and reducer program used for preprocessing the json files, for q2,q3,q4
+
+front end file: the fornt end for q1 q2 q3 q4, which handles the request and response
+
+toHfiles file: the java to convert the output of ETL to Hfile, which can be used to import hbase.
+
+
+
+
+
