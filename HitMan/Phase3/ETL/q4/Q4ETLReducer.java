@@ -85,7 +85,7 @@ public class Q4ETLReducer {
 	public void reducer() throws IOException {
 		BufferedReader bufferedReader = 
 				new BufferedReader(new InputStreamReader(System.in, "UTF-8"));
-//		BufferedReader bufferedReader = new BufferedReader(new FileReader("/Users/zuoyougu/Downloads/q4mapper.txt"));
+
 
 		String line;
 		String[] splits;

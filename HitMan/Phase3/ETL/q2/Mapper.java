@@ -41,8 +41,7 @@ public class Mapper {
 		BufferedReader bufferedReader = 
 				new BufferedReader(new InputStreamReader(System.in,"UTF-8"));
 
-//		BufferedReader bufferedReader = 
-//		new BufferedReader(new FileReader("15619f14twitter-partb-aa"));
+
 
 		int score;			
 		String input;

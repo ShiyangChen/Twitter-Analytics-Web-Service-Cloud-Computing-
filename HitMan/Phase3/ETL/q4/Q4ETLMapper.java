@@ -40,7 +40,7 @@ public class Q4ETLMapper {
 	public void mappr() throws IOException, java.text.ParseException {
 		BufferedReader bufferedReader = 
 				new BufferedReader(new InputStreamReader(System.in, "UTF-8"));
-//		BufferedReader bufferedReader = new BufferedReader(new FileReader("/Users/zuoyougu/Downloads/twitter-sample.txt"));
+
 		String line;
 		JSONObject wholeLine;
 		Date date;
