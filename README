@@ -1,1 +1,9 @@
-This project is decided into 3 phases. And the phase 3 is the final part, which includes phase 2 and phase 1. 
+This is the final project of the course Cloud Computing which is decided into 3 phases. Out team(3 members) spent about 2 months to implement it. The phase 3 is the final part, which includes phase 2 and phase 1. 
+
+What we have done:
+- Extracted and transformed 1TB Twitter raw data by MapReduce of Amazon Web Service (AWS); loaded them to database by Hadoop and MySQL commands; Implemented 6 queries on 2 different databases.
+- Designed schemas and optimized efficiency of each query in MySQL and HBase. Then compared     performances (throughput) of these 2 databases and select one to compete against other teams.
+- Front end: Configured Tomcat and Java Servlet on EC2 with ELB as load balancer to allocate duties.
+
+
+Detailed implementation can be viewed in the inside README.
